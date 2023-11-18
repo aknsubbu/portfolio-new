@@ -20,19 +20,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ cardInfo }) => {
     indexNumber,
     description,
     repoLink,
-  } = cardInfo;
+  } = cardInfo; 
+
   return (
     <div className="w-[300px] mx-5">
       <a
-        className="relative group block w-full h-full text-left px-6 sm:pl-10 sm:pr-14 pt-32 md:pt-52 xl:pt-80 pb-10 border rounded-4xl overflow-hidden"
+        className="relative group block w-full h-full text-left px-6 sm:pl-10 sm:pr-14 pt-32 md:pt-52 xl:pt-8 pb-10 border rounded-4xl overflow-hidden"
         target="_blank"
         href={repoLink}
       >
+        {/* <div className="m-1">
         <Image
-          className=" absolute top-0 left-0 h-auto w-full object-cover"
+          // width={600}
           src={imagePath}
           alt=""
         />
+        </div> */}
         <span className="absolute top-0 right-0 my-8 px-7 text-gray-700 font-bold group-hover:text-gray-800">
           {indexNumber}
         </span>

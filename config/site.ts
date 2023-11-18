@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "Anandkumar NS",
+	description: "This is a portfolio website I created to help put myself out there and so people can contact me more easily allowing me to collborate with many inteesting and talented people...",
 	navItems: [
 		{
 			label: "Home",
@@ -35,7 +35,7 @@ export const siteConfig = {
 	],
 	links: {
 		github: "https://github.com/aknsubbu",
-		discord: "https://discord.gg/9b6yyZKmH4",
+		discord: "https://discord.gg/",
     
 	},
 };
